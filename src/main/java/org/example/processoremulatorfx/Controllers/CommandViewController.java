@@ -35,16 +35,10 @@ public class CommandViewController implements IObserver {
   Label Arg2;
 
   @FXML
-  void initialize()
-  {
-    executerModel.addObserver(this);
-  }
+  void initialize() { executerModel.addObserver(this); }
 
   @FXML
-  void remove()
-  {
-    programModel.removeCommand(c);
-  }
+  void remove() { programModel.removeCommand(c); }
 
   @FXML
   void  down() throws Exception {

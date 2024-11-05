@@ -10,6 +10,7 @@ public class ProgramModel implements Iterable<Command> {
     public ArrayList<Command> getAllCommands(){
         return allCommands;
     }
+    public int countCommads() { return allCommands.size(); }
 
     public ProgramModel(){
         allCommands.add(new Command("init", "10", "20"));
@@ -24,6 +25,7 @@ public class ProgramModel implements Iterable<Command> {
         allCommands.add(new Command("mv", "b", "c"));
         allCommands.add(new Command("div"));
         allCommands.add(new Command("print"));  // вывод 45 5 5 9
+        eventCall();
     }
 
     ArrayList<IObserver> allObserver = new ArrayList<>();

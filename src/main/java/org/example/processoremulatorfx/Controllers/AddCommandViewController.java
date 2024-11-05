@@ -15,13 +15,20 @@ public class AddCommandViewController {
 
   @FXML
   void add() throws Exception {
-    if (ComboBoxInstruction.getValue() != null)
-      if(((ComboBoxInstruction.getValue().equals("init") || ComboBoxInstruction.getValue().equals("ld")
-            || ComboBoxInstruction.getValue().equals("st") || ComboBoxInstruction.getValue().equals("mv"))
-            && (!Objects.equals(Arg1.getText(), "") && !Objects.equals(Arg2.getText(), ""))) ||
-            ((ComboBoxInstruction.getValue().equals("print") || ComboBoxInstruction.getValue().equals("add")
-            || ComboBoxInstruction.getValue().equals("sub") || ComboBoxInstruction.getValue().equals("mult") || ComboBoxInstruction.getValue().equals("div"))))
+    if (ComboBoxInstruction.getValue() != null) {
+      if (((ComboBoxInstruction.getValue().equals("init") || ComboBoxInstruction.getValue().equals("ld")
+              || ComboBoxInstruction.getValue().equals("st") || ComboBoxInstruction.getValue().equals("mv"))
+              && (!Objects.equals(Arg1.getText(), "") && !Objects.equals(Arg2.getText(), ""))) ||
+              ((ComboBoxInstruction.getValue().equals("print") || ComboBoxInstruction.getValue().equals("add")
+              || ComboBoxInstruction.getValue().equals("sub") || ComboBoxInstruction.getValue().equals("mult")
+              || ComboBoxInstruction.getValue().equals("div")))) {
         programModel.addCommand(new Command((String) ComboBoxInstruction.getValue(), Arg1.getText(), Arg2.getText()));
+      }
+      else
+        System.out.println("Warning: Enter the parameters");
+    }
+    else
+      System.out.println("Warning: Choose command");
   }
 
   @FXML

@@ -22,11 +22,7 @@ public class ConsoleViewController implements IObserver {
 
 
   @FXML
-  void initialize()
-  {
-
-    cpuModel.addObserver(this);
-  }
+  void initialize() { cpuModel.addObserver(this); }
 
   @FXML
   VBox Console;

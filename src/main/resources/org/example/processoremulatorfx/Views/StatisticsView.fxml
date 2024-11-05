@@ -6,7 +6,7 @@
 
 <Pane prefHeight="150.0" prefWidth="230.0" style="-fx-border-color: gray;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.processoremulatorfx.Controllers.StatisticsViewController">
    <children>
-      <Label alignment="TOP_CENTER" layoutX="10.0" layoutY="9.0" prefHeight="25.0" prefWidth="210.0" text="Статистика">
+      <Label alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="210.0" text="Статистика">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>

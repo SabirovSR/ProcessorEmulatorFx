@@ -12,6 +12,7 @@ public class ProcessorEmulatorViewController {
     try {
       executerModel.run();
     } catch (Exception e) {
+      executerModel.addErr();
       System.out.println("Error: " + e.getMessage());
     }
   }

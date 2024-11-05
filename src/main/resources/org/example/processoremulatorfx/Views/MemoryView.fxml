@@ -11,9 +11,9 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <ScrollPane layoutX="10.0" layoutY="34.0" prefHeight="106.0" prefWidth="210.0">
+      <ScrollPane layoutX="5" layoutY="34.0" prefHeight="106.0" prefWidth="225.0">
          <content>
-            <VBox fx:id="Mem" maxHeight="100.0" maxWidth="207.0" />
+            <VBox fx:id="Mem" maxHeight="100.0" maxWidth="220.0" />
          </content></ScrollPane>
    </children>
 </Pane>

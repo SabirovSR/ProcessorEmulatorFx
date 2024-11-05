@@ -52,13 +52,17 @@ public class MainViewController implements IObserver {
       FXMLLoader fxmlLoader7 = new FXMLLoader(
               App.class.getResource("Views/InfoView.fxml"));
 
+      FXMLLoader fxmlLoader8 = new FXMLLoader(
+              App.class.getResource("Views/ProgramStatusView.fxml"));
+
+      Pane pane8 = fxmlLoader8.load();
       Pane pane1 = fxmlLoader1.load();
       Pane pane2 = fxmlLoader2.load();
       Pane pane3 = fxmlLoader3.load();
       Pane pane4 = fxmlLoader4.load();
       Pane pane5 = fxmlLoader5.load();
       Pane pane6 = fxmlLoader6.load();
-      Pane pane7 = fxmlLoader7.load();
+      //Pane pane7 = fxmlLoader7.load();
 
       VBox vBox = new VBox(2);
       vBox.setSpacing(0);
@@ -69,7 +73,8 @@ public class MainViewController implements IObserver {
       main.add(pane3, 0, 1);
       main.add(vBox, 0, 0);
       main.add(pane6, 1, 1);
-      main.add(pane7, 0, 2);
+      //main.add(pane7, 0, 2);
+      main.add(pane8, 0, 2);
 
     } catch (Exception e) {
         throw new RuntimeException(e);
