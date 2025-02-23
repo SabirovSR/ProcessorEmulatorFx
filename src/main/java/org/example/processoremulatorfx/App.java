@@ -12,7 +12,7 @@ public class App extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(
                 App.class.getResource("MainView.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Эмулятор процессора");
+        stage.setTitle("Парозовые составы");
         stage.setScene(scene);
         stage.show();
     }
