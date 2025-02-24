@@ -5,6 +5,5 @@ import org.example.processoremulatorfx.Models.ExecuterModel;
 public class BExecuterModel {
   static ExecuterModel executerModel = new ExecuterModel();
 
-  // Получить модельку
   public static ExecuterModel build()  { return executerModel; }
 }

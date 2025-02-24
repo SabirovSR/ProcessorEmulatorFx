@@ -12,7 +12,6 @@ import org.example.processoremulatorfx.Models.CpuModel;
 import org.example.processoremulatorfx.Models.ExecuterModel;
 import org.example.processoremulatorfx.Models.ProgramModel;
 
-// Контроллер памяти
 public class MemoryViewController implements IObserver{
   CpuModel cpuModel = BCpuModel.build();
 

@@ -2,7 +2,6 @@ package org.example.processoremulatorfx;
 
 import java.util.Arrays;
 
-// Команда
 public class Command {
     private String command;
     private String[] args;

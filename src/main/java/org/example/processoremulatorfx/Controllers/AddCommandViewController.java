@@ -10,7 +10,6 @@ import org.example.processoremulatorfx.Models.ProgramModel;
 
 import java.util.Objects;
 
-// Класс, где добавлются новые команды
 public class AddCommandViewController {
   ProgramModel programModel = BProgramModel.build();
 

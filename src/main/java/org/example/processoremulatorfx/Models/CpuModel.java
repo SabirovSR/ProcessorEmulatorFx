@@ -5,7 +5,6 @@ import org.example.processoremulatorfx.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-// Модель процессора
 public class CpuModel implements ICpu {
   private int[] registers = new int[4]; // 4 регистра
   private int[] memory = new int[1024]; // Память (1024 элемента double)

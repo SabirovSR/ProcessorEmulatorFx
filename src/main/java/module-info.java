@@ -14,6 +14,4 @@ module org.example.processoremulatorfx {
   opens org.example.processoremulatorfx.Models to javafx.fxml;
   exports org.example.processoremulatorfx.BModels;
   opens org.example.processoremulatorfx.BModels to javafx.fxml;
-    exports org.example.processoremulatorfx.TypeWagon;
-    opens org.example.processoremulatorfx.TypeWagon to javafx.fxml;
 }

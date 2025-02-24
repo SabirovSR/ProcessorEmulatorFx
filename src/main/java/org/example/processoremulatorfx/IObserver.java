@@ -1,9 +1,11 @@
 package org.example.processoremulatorfx;
 
-import org.example.processoremulatorfx.Models.*;
+import org.example.processoremulatorfx.Models.CpuModel;
+import org.example.processoremulatorfx.Models.ExecuterModel;
+import org.example.processoremulatorfx.Models.ProgramModel;
 
-// Наблюдатель
 public interface IObserver {
-    void event(TrainModel e);
-    void event(TrainsModel e);
+    void event(ProgramModel m);
+    void event(CpuModel c);
+    void event(ExecuterModel e);
 }

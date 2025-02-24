@@ -10,7 +10,6 @@ import org.example.processoremulatorfx.Models.CpuModel;
 import org.example.processoremulatorfx.Models.ExecuterModel;
 import org.example.processoremulatorfx.Models.ProgramModel;
 
-// Контроллер состояния программы
 public class ProgramStatusViewController implements IObserver {
   ProgramModel programModel = BProgramModel.build();
   CpuModel cpuModel = BCpuModel.build();

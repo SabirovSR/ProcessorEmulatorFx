@@ -5,7 +5,6 @@ import org.example.processoremulatorfx.IObserver;
 
 import java.util.*;
 
-// Модель программы
 public class ProgramModel implements Iterable<Command> {
     ArrayList<Command> allCommands = new ArrayList<>();
     public ArrayList<Command> getAllCommands(){

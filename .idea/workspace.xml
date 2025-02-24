@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f83e7fb-85ab-4f25-bfa3-c7d28ae62571" name="Changes" comment="что за фигня, можно обратно пожалуйста">
+    <list default="true" id="0f83e7fb-85ab-4f25-bfa3-c7d28ae62571" name="Changes" comment="Реализация визуального интерфейса для эмулятора процессора">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/BModels/BCpuModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/BModels/BCpuModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/BModels/BExecuterModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/BModels/BExecuterModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/BModels/BProgramModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/BModels/BProgramModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/AddCommandViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/AddCommandViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/CommandViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/CommandViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/ConsoleViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/ConsoleViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/MainViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/MainViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/MemoryViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/MemoryViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/ProcessorEmulatorViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/ProcessorEmulatorViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/ProgramStatusViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/ProgramStatusViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/RegistersViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/RegistersViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/StatisticsViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/StatisticsViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/ICpu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/ICpu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/IObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/IObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Models/CpuModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Models/CpuModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Models/ExecuterModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Models/ExecuterModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Models/ProgramModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Models/ProgramModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,9 +64,9 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Savik/source/repos/3 semestr/Java/Git/ProcessorEmulatorFx/src/main/resources/org/example/processoremulatorfx/Views",
+    "last_opened_file_path": "D:/repos/Git/ProcessorEmulatorFx",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -120,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730659144294</updated>
-      <workItem from="1740355675830" duration="273000" />
+      <workItem from="1740354718482" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="Создание проекта Fx">
       <option name="closed" value="true" />
@@ -173,7 +154,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/processoremulatorfx/Controllers/ProgramStatusViewController.java</url>
-          <line>53</line>
+          <line>52</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>

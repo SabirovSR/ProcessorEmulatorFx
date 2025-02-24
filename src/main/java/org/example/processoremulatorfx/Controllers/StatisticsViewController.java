@@ -12,7 +12,6 @@ import org.example.processoremulatorfx.Models.CpuModel;
 import org.example.processoremulatorfx.Models.ExecuterModel;
 import org.example.processoremulatorfx.Models.ProgramModel;
 
-// Контроллер статистики
 public class StatisticsViewController implements IObserver {
   ProgramModel programModel = BProgramModel.build();
   Font monoFont = Font.font("monospaced", 12);
