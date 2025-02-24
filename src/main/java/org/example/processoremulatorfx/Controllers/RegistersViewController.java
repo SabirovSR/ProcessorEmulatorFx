@@ -8,6 +8,7 @@ import org.example.processoremulatorfx.Models.CpuModel;
 import org.example.processoremulatorfx.Models.ExecuterModel;
 import org.example.processoremulatorfx.Models.ProgramModel;
 
+// Контроллер регистров
 public class RegistersViewController implements IObserver {
   CpuModel cpuModel = BCpuModel.build();
 

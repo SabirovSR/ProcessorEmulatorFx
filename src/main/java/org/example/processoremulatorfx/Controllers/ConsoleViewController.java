@@ -13,6 +13,7 @@ import org.example.processoremulatorfx.Models.ProgramModel;
 
 import java.util.Objects;
 
+// Класс отвечающий за функционал консольки
 public class ConsoleViewController implements IObserver {
   CpuModel cpuModel = BCpuModel.build();
   Font monoFont = Font.font("monospaced", 12);

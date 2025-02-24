@@ -16,6 +16,7 @@ import org.example.processoremulatorfx.Models.ProgramModel;
 
 import java.io.IOException;
 
+// Главный контроллер
 public class MainViewController implements IObserver {
   ProgramModel programModel = BProgramModel.build();
 

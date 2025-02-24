@@ -6,6 +6,7 @@ import org.example.processoremulatorfx.IObserver;
 
 import java.util.ArrayList;
 
+// Модель исполнителя
 public class ExecuterModel {
   CpuModel cpuModel = BCpuModel.build();
   ProgramModel programModel = BProgramModel.build();

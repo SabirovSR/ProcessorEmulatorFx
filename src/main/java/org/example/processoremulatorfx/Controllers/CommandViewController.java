@@ -13,6 +13,7 @@ import org.example.processoremulatorfx.Models.CpuModel;
 import org.example.processoremulatorfx.Models.ExecuterModel;
 import org.example.processoremulatorfx.Models.ProgramModel;
 
+// Класс самой команды
 public class CommandViewController implements IObserver {
   ProgramModel programModel = BProgramModel.build();
   ExecuterModel executerModel = BExecuterModel.build();

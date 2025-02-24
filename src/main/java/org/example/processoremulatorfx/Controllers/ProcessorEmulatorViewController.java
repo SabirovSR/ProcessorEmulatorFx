@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import org.example.processoremulatorfx.BModels.BExecuterModel;
 import org.example.processoremulatorfx.Models.ExecuterModel;
 
+// Контроллер процессора
 public class ProcessorEmulatorViewController {
   ExecuterModel executerModel = BExecuterModel.build();
 
